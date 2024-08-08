@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightblue;
+}
+
+.content {
+    margin: 0 auto;
+    width: 600px; /* Adjust width as needed */
+    text-align: center; /* Center-aligns content within the .content div */
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%; /* Make table take full width of the container */
+}
+
+th {
+    height: 30px;
+    background-color: #f4f4f4; /* Light background for table headers */
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+.form {
+    margin-top: 20px;
+    text-align: center; /* Center-aligns the form within its container */
+}
+
+#content {
+    width: 70%;
+}
